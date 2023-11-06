@@ -1,0 +1,8 @@
+# Configuration for corelight threatgrid files upload
+
+# where the sensor is copying extracted files to
+SAMPLES_BASE = "/path/to/sample/files"
+
+# threatgrid host/credentials
+SMA_HOST = "panacea.threatgrid.com"
+SMA_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxx"
