@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "corelight-threatgrid"
+version = "0.0.1"
+description = "Upload Corelight extracted files to Cisco Secure Malware Analytics (formerly threatgrid)"
+authors = ["Eldon Koyle <eldon.koyle@corelight.com>"]
+license = "BSD 3-clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+fasteners = "^0.19"
+inotify = "^0.2.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
