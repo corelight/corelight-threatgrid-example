@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-import os
-import fasteners
 import hashlib
 import json
-import time
-import threading
 import logging
-import magic
+import os
 import re
+import threading
+import time
 
+import fasteners
+import magic
 
 META_DIRNAME = ".meta"
 
